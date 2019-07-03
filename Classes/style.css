@@ -1,4 +1,8 @@
-body {margin: 0;}
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 audio{display:none;}
 
@@ -136,13 +140,12 @@ h2 {font-size:4em; margin:20px 0px 0px 30px; }
 }
 
 .sidebox img{
-	width: 300px;
+	width: 90%;
 	filter:blur(0px);
 	z-index:1;
 	top:0;
 	position:relative;
-	margin-left: 22px;
-	margin-bottom: 22px;
+	padding: 5%;
 }
 
 /*ul.topnav {
