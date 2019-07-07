@@ -8,14 +8,14 @@
 <title>Lion</title>
 </head>
 <body>
-<!--<audio controls autoplay loop>
-    <source src="Resources/Anthem.mp3" type="audio/mpeg">
-</audio>-->	
+<audio controls autoplay loop>
+    <source src="Resources/LionTheme.mp3" type="audio/mpeg">
+</audio>
 	
 <div class="navbar">
   <a href="index.html">Home</a>
   <a href="essay.htm">Essay</a>
-  <!--<a href="bibliography.htm">Bibliography</a>-->
+  <a href="https://drive.google.com/file/d/1ON23bYkuFdwMwBVkGoPD4R9qvMHpgofL/view" target="_blank">Assessment</a>
 </div>
 	
 <div class="container">
@@ -24,18 +24,11 @@
 </div>
 	
 <script>
-
-function open(){
-	/*window.open("sydney.htm", "_self");*/
-}
-
 var iteration = 0;
-var allPics = ["/Resources/train.PNG", "/Resources/laptophugger.jpg", "/Resources/hoodie.jpg", "/Resources/gears.jpg"];
+var allPics = ["/Resources/train.PNG", "/Resources/laptophugger.jpg", "/Resources/hoodie.jpg", "/Resources/india.jpg"];
 function move() {
 	var pic = document.getElementById("main");
 	pic.src = allPics[iteration];
-	//document.getElementById('pleasework').childNodes[0].nodeValue="Visit "+names[iteration];
-	document.getElementById('PLEASEWORK').href = names[iteration].toLowerCase()+".htm";
 	iteration++;
 	if(iteration == 3){iteration = 0}
 	setTimeout(move, 5000);
